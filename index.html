@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaNeutraBar | Launching 21 October</title>
+<meta name="description" content="MegaNeutraBar — a delicious chocolate bar packed with calcium, made for women who want strong bones without giving up the treat. Launching 21 October 2026.">
+<meta name="theme-color" content="#120B08">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MegaNeutraBar | Launching 21 October">
+<meta property="og:description" content="A delicious chocolate bar packed with calcium, made for women who want strong bones without giving up the treat.">
+<!-- After you know your live URL, make these two absolute (WhatsApp needs it):
+     https://USERNAME.github.io/REPO/assets/og-image.jpg -->
+<meta property="og:url" content="https://USERNAME.github.io/REPO/">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:image:alt" content="MegaNeutraBar — Strong Bones, Sweet Bar">
+<meta property="og:site_name" content="MegaNeutraBar">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MegaNeutraBar | Launching 21 October">
+<meta name="twitter:description" content="A delicious chocolate bar packed with calcium, made for women who want strong bones without giving up the treat.">
+<meta name="twitter:image" content="assets/og-image.jpg">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="glow" aria-hidden="true"></div>
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<main class="wrap">
+
+  <!-- 1. brand -->
+  <header class="reveal" style="--d:0">
+    <!-- To use an image logo instead, delete the <h1> below and uncomment the <img> -->
+    <!-- <img class="logo" src="assets/logo.png" alt="MegaNeutraBar"> -->
+    <h1 class="brand">MegaNeutraBar</h1>
+  </header>
+
+  <!-- 2. badge -->
+  <p class="badge reveal" style="--d:1"><span class="dot" aria-hidden="true"></span><span id="badge-text">Launching Soon</span></p>
+
+  <!-- 3. headline -->
+  <h2 class="headline reveal" style="--d:2">
+    <span id="head-1">Strong Bones,</span><br>
+    <em id="head-2">Sweet</em> <span id="head-3">Bar</span>
+  </h2>
+
+  <!-- 4. subtitle -->
+  <p class="sub reveal" style="--d:3" id="sub">
+    A delicious chocolate bar packed with calcium, made for women<br>
+    who want strong bones without giving up the treat.
+  </p>
+
+  <!-- 5. date -->
+  <p class="date reveal" style="--d:4" id="date-line">October 21st, 2026 &middot; 10:00 AM</p>
+
+  <!-- 6. countdown -->
+  <div class="countdown reveal" style="--d:5" id="countdown" role="timer" aria-live="polite" aria-label="Time until launch">
+    <div class="tile"><span class="num" id="days">00</span><span class="lbl">Days</span></div>
+    <div class="tile"><span class="num" id="hours">00</span><span class="lbl">Hours</span></div>
+    <div class="tile"><span class="num" id="mins">00</span><span class="lbl">Mins</span></div>
+    <div class="tile"><span class="num" id="secs">00</span><span class="lbl">Secs</span></div>
+  </div>
+
+  <!-- 7. sale line -->
+  <p class="sale reveal" style="--d:6"><span class="sparkle" aria-hidden="true">&#10026;</span> Exclusive Launch Sale Starts Instantly <span class="sparkle" aria-hidden="true">&#10026;</span></p>
+
+  <!-- 8. divider + cta heading -->
+  <div class="divider reveal" style="--d:7" aria-hidden="true"></div>
+  <p class="wait reveal" style="--d:8">Can&rsquo;t Wait?</p>
+
+  <!-- 9. instagram button -->
+  <a class="btn reveal" style="--d:9" id="ig-btn" href="https://instagram.com/meganeutrabar" target="_blank" rel="noopener noreferrer">
+    <svg class="ig" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/>
+      <circle cx="12" cy="12" r="4.2"/>
+      <circle cx="17.4" cy="6.6" r="1.1" class="solid"/>
+    </svg>
+    Follow @meganeutrabar
+  </a>
+
+</main>
+
+<canvas id="confetti" aria-hidden="true"></canvas>
+<script src="script.js" defer></script>
+</body>
+</html>
